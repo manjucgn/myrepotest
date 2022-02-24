@@ -1,14 +1,12 @@
-Pipeline {
+pipeline {
     agent 'any'
-	stages {
-	  stage ("stage1") {
+    stages {
+	stage ("stage1") {
 	   steps {
 	     script {
-		 
-		 println 'Hi I am going to print data'
-		 
-		}
-	  }
+		println "Hi I am going to print data"
+	       }
+	    }
 	 }
-	}
+       	}
    }
